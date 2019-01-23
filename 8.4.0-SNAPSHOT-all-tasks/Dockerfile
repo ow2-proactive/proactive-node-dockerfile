@@ -1,5 +1,5 @@
 # Use proactive scheduler image and change the entrypoint
-FROM tobwiens/proactive-scheduler:8.4.0-SNAPSHOT-all-tasks
+FROM activeeon/proactive-scheduler:8.4.0-SNAPSHOT-all-tasks
 
 RUN ["/bin/bash", "-c", "apt-get update && apt-get install -y python curl"]
 

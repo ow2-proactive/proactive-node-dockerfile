@@ -1,5 +1,5 @@
 # Use proactive scheduler image and change the entrypoint
-FROM tobwiens/proactive-bare-scheduler:master
+FROM activeeon/proactive-bare-scheduler:master
 
 RUN ["/bin/bash", "-c", "apt-get update && apt-get install python-pip -y"]
 
